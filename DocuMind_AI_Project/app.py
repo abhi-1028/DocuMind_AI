@@ -5,6 +5,9 @@ import io
 import html
 from pathlib import Path
 
+# Project root directory
+BASE_DIR = Path(__file__).resolve().parent
+
 st.set_page_config(
     page_title="DocuMind AI",
     page_icon="📚",
@@ -678,10 +681,11 @@ try:
     if uploaded is not None:
         source_text = extract_text(uploaded)
         facts = parse_knowledge(source_text)
+
         source_name = uploaded.name
-        source_type = "Uploaded document"
+        source_type = "Uploaded Document"
+
     elif sample:
-        BASE_DIR = Path(__file__).resolve().parent
         kb_path = BASE_DIR / "data" / "knowledge_base.json"
 
         kb = json.loads(
@@ -689,18 +693,20 @@ try:
         )
 
         facts = kb["facts"]
-        source_name = "Sample Student Handbook"        facts = kb["facts"]
         source_name = "Sample Student Handbook"
-        source_type = "Built-in sample knowledge base"
+        source_type = "Sample Handbook"
+
     else:
         facts = []
         source_name = "No document selected"
-        source_type = "Waiting for document"
+        source_type = "None"
+
 except Exception as e:
     st.error(f"Document processing error: {e}")
+
     facts = []
     source_name = "Error"
-    source_type = "Processing error"
+    source_type = "Error"
 
 # ============================================================
 # DASHBOARD OVERVIEW
