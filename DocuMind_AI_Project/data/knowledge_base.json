@@ -1,0 +1,220 @@
+{
+  "document_title": "Sample Student Handbook",
+  "institution": "MS Ramaiah University of Applied Sciences",
+  "notice": "This is a fictional teaching document created solely for the DocuMind AI academic assignment. It is not an official publication of MS Ramaiah University of Applied Sciences. All policies, percentages, timings, fees-related rules and procedures below are illustrative sample data and must not be treated as actual university regulations.",
+  "facts": [
+    {
+      "id": "university.name",
+      "label": "University name",
+      "value": "MS Ramaiah University of Applied Sciences",
+      "aliases": [
+        "university",
+        "institution",
+        "name"
+      ]
+    },
+    {
+      "id": "university.location",
+      "label": "University location",
+      "value": "Bengaluru, Karnataka, India",
+      "aliases": [
+        "location",
+        "address",
+        "city"
+      ]
+    },
+    {
+      "id": "attendance.minimum",
+      "label": "Minimum attendance requirement",
+      "value": "75%",
+      "aliases": [
+        "attendance",
+        "minimum attendance",
+        "eligibility"
+      ]
+    },
+    {
+      "id": "attendance.condonation",
+      "label": "Attendance condonation limit",
+      "value": "10 percentage points, subject to approval",
+      "aliases": [
+        "condonation",
+        "shortage",
+        "attendance relaxation"
+      ]
+    },
+    {
+      "id": "exam.eligibility",
+      "label": "Examination eligibility rule",
+      "value": "A student must meet the minimum attendance requirement and complete required coursework to be eligible for end-semester examinations.",
+      "aliases": [
+        "exam",
+        "examination",
+        "eligible",
+        "eligibility",
+        "end semester"
+      ]
+    },
+    {
+      "id": "assessment.internal",
+      "label": "Internal assessment components",
+      "value": "Quizzes, assignments, practical work, and internal tests",
+      "aliases": [
+        "internal assessment",
+        "assessment",
+        "quizzes",
+        "assignments"
+      ]
+    },
+    {
+      "id": "assessment.weightage",
+      "label": "Internal assessment weightage",
+      "value": "40% of the course assessment",
+      "aliases": [
+        "weightage",
+        "internal marks",
+        "assessment marks"
+      ]
+    },
+    {
+      "id": "assessment.endsem",
+      "label": "End-semester examination weightage",
+      "value": "60% of the course assessment",
+      "aliases": [
+        "end semester",
+        "final exam",
+        "examination weightage"
+      ]
+    },
+    {
+      "id": "library.hours",
+      "label": "Library operating hours",
+      "value": "Monday to Friday, 8:30 AM to 8:00 PM; Saturday, 9:00 AM to 5:00 PM; closed on Sundays and university holidays",
+      "aliases": [
+        "library",
+        "hours",
+        "timing",
+        "open"
+      ]
+    },
+    {
+      "id": "library.loan",
+      "label": "Standard library loan period",
+      "value": "14 days",
+      "aliases": [
+        "borrow",
+        "loan",
+        "book duration",
+        "library period"
+      ]
+    },
+    {
+      "id": "library.fine",
+      "label": "Overdue library fine",
+      "value": "₹2 per book per day after the due date",
+      "aliases": [
+        "fine",
+        "overdue",
+        "late return",
+        "penalty"
+      ]
+    },
+    {
+      "id": "hostel.quiet",
+      "label": "Hostel quiet hours",
+      "value": "10:00 PM to 6:00 AM",
+      "aliases": [
+        "hostel",
+        "quiet",
+        "silence",
+        "noise"
+      ]
+    },
+    {
+      "id": "hostel.visitor",
+      "label": "Hostel visitor rule",
+      "value": "Visitors must register at the hostel reception and leave by 8:00 PM",
+      "aliases": [
+        "visitor",
+        "guest",
+        "hostel entry"
+      ]
+    },
+    {
+      "id": "fees.payment",
+      "label": "Semester fee payment deadline",
+      "value": "Within the first 15 calendar days of the semester, unless a revised date is announced",
+      "aliases": [
+        "fee",
+        "fees",
+        "payment",
+        "deadline",
+        "tuition"
+      ]
+    },
+    {
+      "id": "scholarship.merit",
+      "label": "Merit scholarship criterion",
+      "value": "A sample merit scholarship requires a previous-semester SGPA of at least 8.5 and no active disciplinary penalty",
+      "aliases": [
+        "scholarship",
+        "merit",
+        "SGPA",
+        "eligibility"
+      ]
+    },
+    {
+      "id": "it.support",
+      "label": "IT helpdesk hours",
+      "value": "Monday to Friday, 9:00 AM to 5:00 PM",
+      "aliases": [
+        "IT",
+        "helpdesk",
+        "technical support",
+        "computer"
+      ]
+    },
+    {
+      "id": "student.id",
+      "label": "Student identity card rule",
+      "value": "Students should carry their university identity card while on campus",
+      "aliases": [
+        "ID",
+        "identity card",
+        "student card"
+      ]
+    },
+    {
+      "id": "leave.apply",
+      "label": "Leave application procedure",
+      "value": "Submit a leave request through the designated academic office or student portal before the leave whenever possible",
+      "aliases": [
+        "leave",
+        "absence",
+        "permission"
+      ]
+    },
+    {
+      "id": "safety.emergency",
+      "label": "Emergency contact procedure",
+      "value": "Contact campus security or the designated emergency response desk immediately",
+      "aliases": [
+        "emergency",
+        "safety",
+        "security",
+        "urgent"
+      ]
+    },
+    {
+      "id": "conduct.plagiarism",
+      "label": "Academic integrity rule",
+      "value": "Plagiarism and unauthorised copying are prohibited and may lead to disciplinary action",
+      "aliases": [
+        "plagiarism",
+        "copying",
+        "cheating",
+        "academic integrity"
+      ]
+    }
+  ]
+}

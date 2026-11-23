@@ -1,0 +1,21 @@
+question,expected_answer_or_fact,expected_record_or_rule
+What is the minimum attendance required?,75%,attendance.minimum
+Where is the university located?,"Bengaluru, Karnataka, India",university.location
+What is the standard library loan period?,14 days,library.loan
+What is the library fine?,₹2 per book per day after the due date,library.fine
+When are hostel quiet hours?,10:00 PM to 6:00 AM,hostel.quiet
+When must hostel visitors leave?,8:00 PM,hostel.visitor
+What is the internal assessment weightage?,40% of the course assessment,assessment.weightage
+What is the end-semester examination weightage?,60% of the course assessment,assessment.endsem
+What are the internal assessment components?,"Quizzes, assignments, practical work, and internal tests",assessment.internal
+When should semester fees be paid?,"Within the first 15 calendar days of the semester, unless a revised date is announced",fees.payment
+What SGPA is needed for the sample merit scholarship?,At least 8.5 and no active disciplinary penalty,scholarship.merit
+What are the IT helpdesk hours?,"Monday to Friday, 9:00 AM to 5:00 PM",it.support
+Should students carry an identity card?,"Yes, students should carry their university identity card while on campus",student.id
+How do I apply for leave?,Submit a leave request through the designated academic office or student portal before the leave whenever possible,leave.apply
+What should I do in an emergency?,Contact campus security or the designated emergency response desk immediately,safety.emergency
+Is plagiarism allowed?,No. Plagiarism and unauthorised copying are prohibited and may lead to disciplinary action,conduct.plagiarism
+Is 68% attendance enough for the exam?,"No, it is below the sample minimum requirement of 75%",Rule R1
+Does 80% attendance meet the attendance condition?,"Yes, it meets the sample minimum requirement of 75%",Rule R1
+What is the fine for 3 books overdue for 4 days?,₹24,Rule R3
+Does SGPA 8.7 meet the sample scholarship SGPA threshold?,"Yes, subject to no active disciplinary penalty",Rule R2
