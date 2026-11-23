@@ -681,8 +681,8 @@ try:
         source_name = uploaded.name
         source_type = "Uploaded document"
     elif sample:
-        kb_path = Path("data/knowledge_base.json")
-        kb = json.loads(kb_path.read_text(encoding="utf-8"))
+        BASE_DIR = Path(__file__).resolve().parent
+        kb_path = BASE_DIR / "data" / "knowledge_base.json"        kb = json.loads(kb_path.read_text(encoding="utf-8"))
         facts = kb["facts"]
         source_name = "Sample Student Handbook"
         source_type = "Built-in sample knowledge base"
